@@ -15,6 +15,7 @@
 		3A165BBB1CACEDDB00798C0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A165BB91CACEDDB00798C0D /* LaunchScreen.storyboard */; };
 		3A165BC61CACEDDB00798C0D /* DDLearnSQLiteAPIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A165BC51CACEDDB00798C0D /* DDLearnSQLiteAPIDemoTests.m */; };
 		3A165BD11CACEDDB00798C0D /* DDLearnSQLiteAPIDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A165BD01CACEDDB00798C0D /* DDLearnSQLiteAPIDemoUITests.m */; };
+		3A165BDF1CACEF5600798C0D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A165BDE1CACEF5600798C0D /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3A165BCC1CACEDDB00798C0D /* DDLearnSQLiteAPIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDLearnSQLiteAPIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A165BD01CACEDDB00798C0D /* DDLearnSQLiteAPIDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDLearnSQLiteAPIDemoUITests.m; sourceTree = "<group>"; };
 		3A165BD21CACEDDC00798C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A165BDE1CACEF5600798C0D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A165BDF1CACEF5600798C0D /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		3A165B9F1CACEDDB00798C0D = {
 			isa = PBXGroup;
 			children = (
+				3A165BDE1CACEF5600798C0D /* libsqlite3.tbd */,
 				3A165BAA1CACEDDB00798C0D /* DDLearnSQLiteAPIDemo */,
 				3A165BC41CACEDDB00798C0D /* DDLearnSQLiteAPIDemoTests */,
 				3A165BCF1CACEDDB00798C0D /* DDLearnSQLiteAPIDemoUITests */,
